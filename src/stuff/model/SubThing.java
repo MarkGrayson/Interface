@@ -1,5 +1,6 @@
 package stuff.model;
 
-public class SubThing {
-
+public abstract class SubThing extends Thing 
+{
+	
 }

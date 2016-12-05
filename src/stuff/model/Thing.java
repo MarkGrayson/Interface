@@ -13,4 +13,9 @@ public abstract class Thing implements DoesStuff
 	{
 		this.words = notWords;
 	}
+	
+	public void doesNada()
+	{
+		System.out.println("askdjalksdjfjalj" + words);
+	}
 }

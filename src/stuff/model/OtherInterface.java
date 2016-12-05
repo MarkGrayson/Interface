@@ -1,5 +1,8 @@
 package stuff.model;
 
-public interface OtherInterface {
-
+public interface OtherInterface 
+{
+	public int [] stackOfNumbers();
+	public void uselessMethod();
+	public void otherUselessMethod(double whyMe);
 }

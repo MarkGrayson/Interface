@@ -1,6 +1,6 @@
 package stuff.model;
 
-public class ThirdThing extends SubThing implements OtherInterface
+public class ThirdThing extends SubThing implements OtherInterface, DoesStuff
 {
 	public int [] stackOfNumbers()
 	{
@@ -18,4 +18,19 @@ public class ThirdThing extends SubThing implements OtherInterface
 		
 	}
 	
+	public void doesOtherNada()
+	{
+		
+	}
+	
+	public int countsNada(int numbers)
+	{
+		return numbers;
+	}
+	
+	public void doesNada()
+	{
+		System.out.println("The subclass version");
+		super.doesNada();
+	}
 }
